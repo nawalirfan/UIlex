@@ -7,6 +7,7 @@ export const navlinks = [
     subItems: [
       { title: "Loading Button", url: "/buttons/loading-button" },
       { title: "Gradient Button", url: "/buttons/gradient-button" },
+      { title: "Quad Layer Fill Hover Button", url: "/buttons/quad-layer-fill-hover-button" },
       { title: "Button 3", url: "#" },
     ],
   },
