@@ -20,7 +20,7 @@ UIlex has been built to make life easier for developers and to give back to the 
 
 ## Contributing
 
-We welcome contributions to UIlex! If you'd like to contribute, please follow these steps:
+Contributions are most welcome to UIlex! For further details on how to contribute, please refer to [CONTRIBUTING.md](CONTRIBUTING.md). To install the project, please follow these steps:
 
 1. **Fork the repository**: Click on the "Fork" button at the top right of the repository page on GitHub to create a personal copy of the repository.
 
