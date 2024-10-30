@@ -1,4 +1,4 @@
-# UIlex (By The People, For The People)
+# UIlex *(By The People, For The People)*
 
 <img src="https://github.com/user-attachments/assets/79e63874-72b4-45e8-ab72-d7273ad4e67f" alt="UIlex Logo" style="width: 120px;" />
 <br />
