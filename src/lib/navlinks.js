@@ -6,7 +6,7 @@ export const navlinks = [
     icon: Inbox,
     subItems: [
       { title: "Loading Button", url: "/buttons/loading-button" },
-      { title: "Button 2", url: "#" },
+      { title: "Gradient Button", url: "/buttons/gradient-button" },
       { title: "Button 3", url: "#" },
     ],
   },
