@@ -1,11 +1,11 @@
-export default function GradientButton({ btnText = 'Submit', isLoading = false, height, width, borderRadius = '20px', type, onClick, fromColor = 'from-blue-500', viaColor = 'viw-purple-500', toColor = 'to-pink-500' }) {
+export default function GradientButton({ btnText = 'Submit', isLoading = false, height, width, borderRadius = '20px', type, onClick, fromColor = 'from-blue-500', viaColor = 'viw-purple-500', toColor = 'to-pink-500', customClassName = '' }) {
     return (
         <div className={`${height} ${width} flex items-center justify-center py-3`}>
             <button
                 type={type}
                 disabled={isLoading}
                 onClick={onClick}
-                className={`pe-6 py-3 text-white font-semibold ${borderRadius} bg-gradient-to-r ${fromColor} ${viaColor} ${toColor} hover:brightness-110 transition duration-300 ${height} ${width}`}
+                className={`pe-6 py-3 text-white font-semibold ${borderRadius} bg-gradient-to-r ${fromColor} ${viaColor} ${toColor} hover:brightness-110 transition duration-300 ${height} ${width} ${customClassName}`}
             >
 
                 <div className="flex items-center justify-center gap-2">

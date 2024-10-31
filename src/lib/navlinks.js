@@ -42,7 +42,7 @@ export const navlinks = [
     title: "Cards",
     icon: Phone,
     subItems: [
-      { title: "Card 1", url: "#" },
+      { title: "Product Card", url: "/cards/product-card" },
       { title: "Card 2", url: "#" },
       { title: "Card 3", url: "#" },
     ],
