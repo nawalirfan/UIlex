@@ -8,7 +8,8 @@ import { GradientButtonPage } from "./reusable-components/buttons/gradient-butto
 import { ProductCardPage } from "./reusable-components/cards/product-card/ProductCardPage";
 import { QuadLayerFillHoverButtonPage } from "@/reusable-components/buttons/quad-layer-fill-hover-button/QuadLayerFillHoverButtonPage.jsx";
 import { RatingInputComponentPage } from "./reusable-components/rating/rating-input/RatingInputComponentPage";
-import { RatingScoreComponentPage } from "./reusable-components/rating/rating-score/RatingScoreComponentPage";
+import { RatingScoreComponentPage } from "./reusable-components/rating/rating-score/RatingScoreComponentPage";import { ProductCardPage } from "./reusable-components/cards/product-card/ProductCardPage";
+
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/notifications/success" element={<Main content={<SuccessNotificationPage />} />} />
           <Route path="/ratings/rating-input" element={<Main content={<RatingInputComponentPage />} />} />
           <Route path="/ratings/rating-score" element={<Main content={<RatingScoreComponentPage />} />} />
+          <Route path="/cards/product-card" element={<Main content={<ProductCardPage />} />} />
         </Routes>
       </Router>
     </SidebarProvider>
