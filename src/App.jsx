@@ -5,11 +5,10 @@ import { Main } from "./custom-components/Main";
 import { SuccessNotificationPage } from "./reusable-components/notifications/success-notification/SuccessNotificationPage";
 import { LoadingButtonPage } from "./reusable-components/buttons/loading-button/LoadingButtonPage";
 import { GradientButtonPage } from "./reusable-components/buttons/gradient-button/GradientButtonPage";
-import { ProductCardPage } from "./reusable-components/cards/product-card/ProductCardPage";
 import { QuadLayerFillHoverButtonPage } from "@/reusable-components/buttons/quad-layer-fill-hover-button/QuadLayerFillHoverButtonPage.jsx";
 import { RatingInputComponentPage } from "./reusable-components/rating/rating-input/RatingInputComponentPage";
-import { RatingScoreComponentPage } from "./reusable-components/rating/rating-score/RatingScoreComponentPage";import { ProductCardPage } from "./reusable-components/cards/product-card/ProductCardPage";
-
+import { RatingScoreComponentPage } from "./reusable-components/rating/rating-score/RatingScoreComponentPage";
+import { ProductCardPage } from "./reusable-components/cards/product-card/ProductCardPage";
 
 function App() {
   return (
@@ -25,7 +24,6 @@ function App() {
           <Route path="/notifications/success" element={<Main content={<SuccessNotificationPage />} />} />
           <Route path="/ratings/rating-input" element={<Main content={<RatingInputComponentPage />} />} />
           <Route path="/ratings/rating-score" element={<Main content={<RatingScoreComponentPage />} />} />
-          <Route path="/cards/product-card" element={<Main content={<ProductCardPage />} />} />
         </Routes>
       </Router>
     </SidebarProvider>
