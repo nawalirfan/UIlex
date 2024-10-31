@@ -1,4 +1,4 @@
-import { Inbox, Mail, Settings, Home, Phone, Cloud, Info } from "lucide-react";
+import { Inbox, Mail, Settings, Home, Phone, Cloud, Info, BotMessageSquare } from "lucide-react";
 
 export const navlinks = [
   {
@@ -56,4 +56,14 @@ export const navlinks = [
       { title: "Table 3", url: "#" },
     ],
   },
+  {
+    title: "Notifications",
+    icon: BotMessageSquare,
+    subItems: [
+      { title: "Success Notification", url: "/notifications/success" },
+      { title: "Table 2", url: "#" },
+      { title: "Table 3", url: "#" },
+    ],
+  },
+
 ];
